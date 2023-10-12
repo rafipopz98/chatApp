@@ -31,11 +31,11 @@ const Login = () => {
     setData({ ...data, [e.target.name]: e.target.value });
   };
 
-  // Form Submission
+  // Form Submission 
   const handleSubmit = (e) => {
     console.log("kokoko");
   };
-
+ 
   return (
     <div className="Auth">
       {/* left side */}
@@ -44,8 +44,8 @@ const Login = () => {
         <img src="" alt="" />
 
         <div className="Webname">
-          <h1>ZKC Media</h1>
-          <h6>Explore the ideas throughout the world</h6>
+          <h1>Chat Appliation</h1>
+          <h6>Explore people throughout the world</h6>
         </div>
       </div>
 
